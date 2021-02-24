@@ -1,4 +1,18 @@
-18510779148628171
+18517235947057995
+4-40_mount_hole
+4-40
+
+
+0
+1
+0
+5x2_shrd_header
+5X2_SHRD_HEADER
+
+
+0
+10
+10
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74479,6 +74493,13 @@ rotary encoder
 0
 5
 4
+SOP-16_custom
+SOP-16_3.9x9.9mm_P1.27mm
+SOP, 16 Pin (https://www.diodes.com/assets/Datasheets/PAM8403.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+16
+16
 Sensor_Audio
 CUI_CMC-4013-SMT
 Omnidirectional, -42dB, reflowable, electret condenser microphone https://www.cuidevices.com/product/resource/cmc-4013-smt-tr.pdf
@@ -80919,3 +80940,10 @@ varistor SIOV
 0
 2
 2
+teensy3x
+TEENSY3X
+
+
+0
+52
+51
