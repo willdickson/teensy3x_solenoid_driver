@@ -1,0 +1,479 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L teensy3:TEENSY3x U1
+U 1 1 60353427
+P 6000 3450
+F 0 "U1" H 5975 4937 60  0000 C CNN
+F 1 "TEENSY3x" H 5975 4831 60  0000 C CNN
+F 2 "" H 5700 3650 60  0000 C CNN
+F 3 "" H 5700 3650 60  0000 C CNN
+	1    6000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 6035A0DB
+P 4650 1950
+F 0 "#PWR01" H 4650 1700 50  0001 C CNN
+F 1 "GND" H 4655 1777 50  0000 C CNN
+F 2 "" H 4650 1950 50  0001 C CNN
+F 3 "" H 4650 1950 50  0001 C CNN
+	1    4650 1950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4950 3150
+NoConn ~ 4950 3250
+NoConn ~ 4950 4350
+NoConn ~ 4950 4450
+NoConn ~ 4950 4550
+NoConn ~ 4950 4650
+NoConn ~ 4950 4850
+NoConn ~ 7000 2250
+NoConn ~ 7000 2350
+NoConn ~ 7000 2450
+NoConn ~ 7000 2550
+NoConn ~ 7000 2650
+NoConn ~ 7000 2950
+NoConn ~ 7000 3050
+NoConn ~ 7000 3150
+NoConn ~ 7000 3250
+NoConn ~ 7000 3600
+NoConn ~ 7000 3700
+NoConn ~ 7000 3800
+NoConn ~ 7000 3900
+NoConn ~ 7000 4000
+NoConn ~ 7000 4100
+NoConn ~ 7000 4200
+NoConn ~ 7000 4350
+NoConn ~ 7000 4450
+NoConn ~ 7000 4550
+NoConn ~ 7000 4650
+NoConn ~ 7000 4750
+NoConn ~ 7000 4850
+NoConn ~ 7000 4950
+Text Notes 1250 5150 0    50   ~ 0
+NOTES:\n\nTarget Solenoid Valve: Lee Company LHDA1233115H,\nCoil Resistance 193, Inductance130mH,\n\n
+Wire Wire Line
+	4950 4250 4750 4250
+Wire Wire Line
+	4950 4150 4750 4150
+Wire Wire Line
+	4950 3350 4750 3350
+Wire Wire Line
+	4950 3450 4750 3450
+Wire Wire Line
+	4950 3550 4750 3550
+Wire Wire Line
+	4950 3650 4750 3650
+Wire Wire Line
+	4950 4750 4750 4750
+Wire Wire Line
+	4950 4950 4750 4950
+Wire Wire Line
+	4950 3750 4750 3750
+Text Label 4750 3350 2    50   ~ 0
+D10_CS
+Text Label 4750 3450 2    50   ~ 0
+D11_MOSI
+Text Label 4750 3550 2    50   ~ 0
+D12_MISO
+Text Label 4750 3650 2    50   ~ 0
+D13_SCK
+Text Label 4750 3750 2    50   ~ 0
+D14_A0
+Text Label 4750 4150 2    50   ~ 0
+D18_SDA0
+Text Label 4750 4250 2    50   ~ 0
+D19_SCL0
+Text Label 4750 4750 2    50   ~ 0
+3V3
+Text Label 4750 4950 2    50   ~ 0
+5V
+NoConn ~ 4950 3950
+NoConn ~ 4950 4050
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J8
+U 1 1 603A8C3F
+P 8900 2300
+F 0 "J8" H 8950 2625 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 8950 2626 50  0001 C CNN
+F 2 "" H 8900 2300 50  0001 C CNN
+F 3 "~" H 8900 2300 50  0001 C CNN
+	1    8900 2300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4950 3850
+Wire Wire Line
+	8700 2200 8500 2200
+Wire Wire Line
+	8700 2300 8500 2300
+Wire Wire Line
+	8700 2400 8500 2400
+Wire Wire Line
+	8700 2500 8500 2500
+Wire Wire Line
+	9200 2100 9400 2100
+Wire Wire Line
+	9200 2200 9400 2200
+Wire Wire Line
+	9200 2300 9400 2300
+Wire Wire Line
+	9200 2400 9400 2400
+Wire Wire Line
+	9200 2500 9400 2500
+$Comp
+L power:GND #PWR010
+U 1 1 603B31BA
+P 7800 2200
+F 0 "#PWR010" H 7800 1950 50  0001 C CNN
+F 1 "GND" H 7805 2027 50  0000 C CNN
+F 2 "" H 7800 2200 50  0001 C CNN
+F 3 "" H 7800 2200 50  0001 C CNN
+	1    7800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2200 7800 2100
+Wire Wire Line
+	7800 2100 8700 2100
+Text Label 9400 2100 0    50   ~ 0
+D10_CS
+Text Label 8500 2200 2    50   ~ 0
+D11_MOSI
+Text Label 9400 2200 0    50   ~ 0
+D12_MISO
+Text Label 8500 2300 2    50   ~ 0
+D13_SCK
+Text Label 9400 2300 0    50   ~ 0
+D14_A0
+Text Label 8500 2400 2    50   ~ 0
+D18_SDA0
+Text Label 9400 2400 0    50   ~ 0
+D19_SCL0
+Text Label 8500 2500 2    50   ~ 0
+3V3
+Text Label 9400 2500 0    50   ~ 0
+5V
+Text Notes 9200 2700 2    50   ~ 0
+Expansion IO
+$Comp
+L Connector:Jack-DC J9
+U 1 1 605A5A9B
+P 1300 950
+F 0 "J9" H 1070 1000 50  0000 R CNN
+F 1 "Jack-DC" H 1070 909 50  0000 R CNN
+F 2 "" H 1350 910 50  0001 C CNN
+F 3 "~" H 1350 910 50  0001 C CNN
+	1    1300 950 
+	1    0    0    -1  
+$EndComp
+Text Notes 2200 3750 0    50   ~ 0
+7channel sink type DMOS transistor array\nTBD62003AFWG,  LCSC# C114084
+Wire Wire Line
+	1800 1050 1800 1250
+Wire Wire Line
+	1800 1050 1600 1050
+$Comp
+L power:GND #PWR0101
+U 1 1 6068A1D9
+P 1800 1250
+F 0 "#PWR0101" H 1800 1000 50  0001 C CNN
+F 1 "GND" H 1805 1077 50  0000 C CNN
+F 2 "" H 1800 1250 50  0001 C CNN
+F 3 "" H 1800 1250 50  0001 C CNN
+	1    1800 1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 606B639A
+P 8950 3550
+F 0 "#FLG0101" H 8950 3625 50  0001 C CNN
+F 1 "PWR_FLAG" H 8950 3723 50  0000 C CNN
+F 2 "" H 8950 3550 50  0001 C CNN
+F 3 "~" H 8950 3550 50  0001 C CNN
+	1    8950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 606BBDB8
+P 9300 3550
+F 0 "#PWR0103" H 9300 3400 50  0001 C CNN
+F 1 "VCC" H 9315 3723 50  0000 C CNN
+F 2 "" H 9300 3550 50  0001 C CNN
+F 3 "" H 9300 3550 50  0001 C CNN
+	1    9300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3550 8950 3600
+Wire Wire Line
+	8950 3600 9300 3600
+Wire Wire Line
+	9300 3600 9300 3550
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 606C4A1D
+P 9000 3900
+F 0 "#FLG0102" H 9000 3975 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 4073 50  0000 C CNN
+F 2 "" H 9000 3900 50  0001 C CNN
+F 3 "~" H 9000 3900 50  0001 C CNN
+	1    9000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3900 9000 3950
+Wire Wire Line
+	9000 3950 9350 3950
+Wire Wire Line
+	9350 3950 9350 3900
+Text Label 9350 3900 1    50   ~ 0
+5V
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 606D8A20
+P 9000 4250
+F 0 "#FLG?" H 9000 4325 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 4423 50  0000 C CNN
+F 2 "" H 9000 4250 50  0001 C CNN
+F 3 "~" H 9000 4250 50  0001 C CNN
+	1    9000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4250 9000 4300
+$Comp
+L power:GND #PWR?
+U 1 1 606E17C9
+P 9000 4300
+F 0 "#PWR?" H 9000 4050 50  0001 C CNN
+F 1 "GND" H 9005 4127 50  0000 C CNN
+F 2 "" H 9000 4300 50  0001 C CNN
+F 3 "" H 9000 4300 50  0001 C CNN
+	1    9000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TBD62003A~:TBD62003A U2
+U 1 1 60381E55
+P 2750 2550
+F 0 "U2" H 2750 3217 50  0000 C CNN
+F 1 "TBD62003A" H 2750 3126 50  0000 C CNN
+F 2 "" H 2800 2000 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 2850 2350 50  0001 C CNN
+	1    2750 2550
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4950 3050
+Wire Wire Line
+	2750 3150 2750 3250
+$Comp
+L power:GND #PWR?
+U 1 1 60399C11
+P 2750 3250
+F 0 "#PWR?" H 2750 3000 50  0001 C CNN
+F 1 "GND" H 2755 3077 50  0000 C CNN
+F 2 "" H 2750 3250 50  0001 C CNN
+F 3 "" H 2750 3250 50  0001 C CNN
+	1    2750 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 6039BAE2
+P 1200 2250
+F 0 "J1" H 1280 2196 50  0000 L CNN
+F 1 "Conn_01x02" H 1280 2151 50  0001 L CNN
+F 2 "" H 1200 2250 50  0001 C CNN
+F 3 "~" H 1200 2250 50  0001 C CNN
+	1    1200 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 603A4DA3
+P 1200 2550
+F 0 "J2" H 1280 2496 50  0000 L CNN
+F 1 "Conn_01x02" H 1280 2451 50  0001 L CNN
+F 2 "" H 1200 2550 50  0001 C CNN
+F 3 "~" H 1200 2550 50  0001 C CNN
+	1    1200 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 603A6AB5
+P 1200 2850
+F 0 "J3" H 1280 2796 50  0000 L CNN
+F 1 "Conn_01x02" H 1280 2751 50  0001 L CNN
+F 2 "" H 1200 2850 50  0001 C CNN
+F 3 "~" H 1200 2850 50  0001 C CNN
+	1    1200 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 603A6B8D
+P 1200 3150
+F 0 "J4" H 1280 3096 50  0000 L CNN
+F 1 "Conn_01x02" H 1280 3051 50  0001 L CNN
+F 2 "" H 1200 3150 50  0001 C CNN
+F 3 "~" H 1200 3150 50  0001 C CNN
+	1    1200 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 603A922F
+P 1200 3450
+F 0 "J5" H 1280 3396 50  0000 L CNN
+F 1 "Conn_01x02" H 1280 3351 50  0001 L CNN
+F 2 "" H 1200 3450 50  0001 C CNN
+F 3 "~" H 1200 3450 50  0001 C CNN
+	1    1200 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 603A936F
+P 1200 3750
+F 0 "J6" H 1280 3696 50  0000 L CNN
+F 1 "Conn_01x02" H 1280 3651 50  0001 L CNN
+F 2 "" H 1200 3750 50  0001 C CNN
+F 3 "~" H 1200 3750 50  0001 C CNN
+	1    1200 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 603A9379
+P 1200 4050
+F 0 "J7" H 1280 3996 50  0000 L CNN
+F 1 "Conn_01x02" H 1280 3951 50  0001 L CNN
+F 2 "" H 1200 4050 50  0001 C CNN
+F 3 "~" H 1200 4050 50  0001 C CNN
+	1    1200 4050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2350 1400 2350
+Wire Wire Line
+	1500 2250 1400 2250
+Wire Wire Line
+	2350 2150 2000 2150
+Wire Wire Line
+	1500 2150 1500 2250
+Wire Wire Line
+	1500 2250 1500 2550
+Wire Wire Line
+	1500 2550 1400 2550
+Connection ~ 1500 2250
+Wire Wire Line
+	1500 2550 1500 2850
+Wire Wire Line
+	1500 2850 1400 2850
+Connection ~ 1500 2550
+Wire Wire Line
+	1500 2850 1500 3150
+Wire Wire Line
+	1500 3150 1400 3150
+Connection ~ 1500 2850
+Wire Wire Line
+	1500 3150 1500 3450
+Wire Wire Line
+	1500 3450 1400 3450
+Connection ~ 1500 3150
+Wire Wire Line
+	1500 3450 1500 3750
+Wire Wire Line
+	1500 3750 1400 3750
+Connection ~ 1500 3450
+Wire Wire Line
+	1500 3750 1500 4050
+Wire Wire Line
+	1500 4050 1400 4050
+Connection ~ 1500 3750
+Wire Wire Line
+	2350 2450 1750 2450
+Wire Wire Line
+	1750 2450 1750 2650
+Wire Wire Line
+	1750 2650 1400 2650
+Wire Wire Line
+	1400 2950 1800 2950
+Wire Wire Line
+	1800 2950 1800 2550
+Wire Wire Line
+	1800 2550 2350 2550
+Wire Wire Line
+	1400 3250 1850 3250
+Wire Wire Line
+	1850 3250 1850 2650
+Wire Wire Line
+	1850 2650 2350 2650
+Wire Wire Line
+	1400 3550 1900 3550
+Wire Wire Line
+	1900 3550 1900 2750
+Wire Wire Line
+	1900 2750 2350 2750
+Wire Wire Line
+	1400 3850 1950 3850
+Wire Wire Line
+	1950 3850 1950 2850
+Wire Wire Line
+	1950 2850 2350 2850
+Wire Wire Line
+	1400 4150 2000 4150
+Wire Wire Line
+	2000 4150 2000 2950
+Wire Wire Line
+	2000 2950 2350 2950
+Wire Wire Line
+	4950 2250 4850 2250
+Wire Wire Line
+	4850 2250 4850 1850
+Wire Wire Line
+	4850 1850 4650 1850
+Wire Wire Line
+	4650 1850 4650 1950
+Wire Wire Line
+	3150 2350 4950 2350
+Wire Wire Line
+	3150 2450 4950 2450
+Wire Wire Line
+	3150 2550 4950 2550
+Wire Wire Line
+	3150 2650 4950 2650
+Wire Wire Line
+	3150 2750 4950 2750
+Wire Wire Line
+	3150 2850 4950 2850
+Wire Wire Line
+	3150 2950 4950 2950
+Wire Wire Line
+	2000 850  2000 2150
+Connection ~ 2000 2150
+Wire Wire Line
+	2000 2150 1500 2150
+Wire Wire Line
+	1600 850  2000 850 
+Text Notes 1150 1250 0    50   ~ 0
+50V Max
+$EndSCHEMATC

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name teensy3)(type Legacy)(uri ${KIPRJMOD}/teensy3.lib)(options "")(descr ""))
+  (lib (name "TBD62003A ")(type Legacy)(uri "${KIPRJMOD}/TBD62003A .lib")(options "")(descr ""))
+)
